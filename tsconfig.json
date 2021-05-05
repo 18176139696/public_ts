@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    // "sourceMap": true,
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    // "outDir": "../node_modules/public/dist",
+    "outDir": "./dist",
+    "rootDir": "./src",
+  },
+  "exclude": [
+    "node_modules",
+    "out",
+    "dist",
+  ],
+}
